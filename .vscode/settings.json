@@ -1,4 +1,13 @@
 {
   "python.analysis.typeCheckingMode": "basic",
-  "python.defaultInterpreterPath": "api/.venv/bin/python3"
+  "python.defaultInterpreterPath": "api/.venv/bin/python3",
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.pycodestyleArgs": [
+    "--max-line-lengt=88"
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.formatting.provider": "black",
+  "[python]": {
+    "editor.formatOnSave": true
+  }
 }
